@@ -1,0 +1,42 @@
+EX NO 27: C PROGRAM TO FIND THE MINIMUM NUMBER USING CALLOC()
+
+
+AIM:
+To write a program to find the minimum using calloc().
+
+ALGORITHM:
+1. Start.
+2. Initialize two variables value of calloc().
+3. Prompt the user to enter values.
+4. Read the values using scanf.
+5. Find minimum and print result
+6. End.
+
+
+PROGRAM:
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+ int *num1, *num2, minimum;
+ num1 = (int *)calloc(1, sizeof(int));
+ num2 = (int *)calloc(1, sizeof(int));
+ num1= 5.8 , num2 = 6.5;
+ minimum = (*num1 < *num2) ? *num1 : *num2;
+ printf("%d\n", minimum);
+ free(num1);
+ free(num2)
+
+C program to find the minimum using calloc().
+
+Developed by:  Prem kumar K
+RegisterNumber:  212223060209
+
+INPUT:
+
+
+OUTPUT:
+
+5.8
+
+RESULT:
+Thus, the program is executed and verified successfully
