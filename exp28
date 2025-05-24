@@ -1,1 +1,40 @@
+EX NO 28:  C PROGRAM USING ENUM TYPE TO CREATE INTEGER CONSTANTS
 
+AIM:
+To write a program using enum type to create integer constants.
+
+ALGORITHM:
+1. Start.
+2. Declare enum type
+3. Declare all days in a week
+4. Print result
+5. End
+
+PROGRAM:
+#include <stdio.h>
+enum weekdays {
+ Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+};
+int main() {
+ enum weekdays today = Wednesday;
+ if (today == Wednesday) {
+ printf("Today is Wednesday.\n");
+ }
+}
+
+
+
+C program to use enum type to create integer constants.
+
+Developed by:  Prem kumar K
+RegisterNumber:  212223060209
+
+INPUT:
+
+
+OUTPUT:
+
+Today is Wednesday.
+
+RESULT:
+Thus, the program is executed and verified successfully
